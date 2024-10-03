@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* PC ------------------------------------------------------------*/
+html,body{width: 100%; position: relative; overflow-x: hidden;}
+/*common*/
+.pc,.pc_tb{display:block;}.tb,.sp,.tb_sp{display:none;}
+body *{font-family:游ゴシック体,YuGothic,游ゴシック medium,yu gothic medium,YuGothicM,yu gothic,メイリオ,Meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,Osaka,ms pゴシック,ms pgothic,sans-serif; font-weight:100; line-height:140%; font-size:16px;font-feature-settings: "palt";transition:0.4s;transiton-diration:0.4s;}
+a{text-decoration:none;}
+img{max-width:100%;vertical-align: bottom;}
+a img:hover{ opacity:0.7;-ms-filter: "alpha(opacity=70)"}
+.inner{ width:96%; margin:0 auto;}
+.fl{ float: left !important;}
+.fr{ float: right !important;}
+.fn{ float: none !important;}
+.mincho{font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;letter-spacing: 0.05em; font-size: 95%; color:#313131;text-align: justify;text-justify: inter-ideograph;  line-height: 180%;}
+.mb5{ margin-bottom:5px !important;}
+.mb10{ margin-bottom: 10px !important;}
+.mb20{ margin-bottom: 20px !important;}
+.mb30{ margin-bottom: 30px !important;}
+.mb35{ margin-bottom: 35px !important;}
+.mb40{ margin-bottom: 40px !important;}
+.mb50{ margin-bottom: 50px !important;}
+.mb60{ margin-bottom: 60px !important;}
+.mb70{ margin-bottom: 70px !important;}
+.mr10{ margin-right:10px;}
+.pd5{ padding:5px;}
+.pt5{ padding-top:5px;}
+.pt10{ padding-top:10px;}
+.pt20{ padding-top:20px;}
+.pd10{ padding:10px;}
+.pd20{ padding:20px;}
+.oh{ overflow: hidden;}
+.w100{ width:100%;}
+.text-center{ text-align:center; margin-left: auto; margin-right: auto;}
+.text-right{ text-align:right;}
+.text-left{ text-align:left;}
+.round{border-radius:5px;-webkit-border-radius:5px;-moz-border-radius: 5px;}
+.col1{ width: 8.33%; float: left; overflow: hidden;}
+.col2{ width: 16.66%; float: left; overflow: hidden;}
+.col3{ width: 24.99%; float: left; overflow: hidden;}
+.col4{ width: 33.32%; float: left; overflow: hidden;}
+.col5{ width: 41.65%; float: left; overflow: hidden;}
+.col6{ width: 50%; float: left; overflow: hidden;}
+.col6_2{ width: 50%; float: left; overflow: hidden;}
+.col7{ width: 58.31%; float: left; overflow: hidden;}
+.col8{ width: 66.64%; float: left; overflow: hidden;}
+.col9{ width: 74.97%; float: left; overflow: hidden;}
+.col10{ width: 83.3%; float: left; overflow: hidden;}
+.col11{ width: 91.63%; float: left; overflow: hidden;}
+.col12{ width: 100%; float: left; overflow: hidden;}
+.row{margin-right:-2% !important;overflow:hidden; width: 102%;}
+.row .col1{ width: 6.33%; float: left;margin-right:2%;display:inline;}
+.row .col2{ width: 14.66%; float: left;margin-right:2%;display:inline;}
+.row .col3{ width: 22.99%; float: left;margin-right:2%;display:inline;}
+.row .col4{ width: 31.32%; float: left;margin-right:2%;display:inline;}
+.row .col5{ width: 39.65%; float: left;margin-right:2%;display:inline;}
+.row .col6{ width: 48%; float: left;margin-right:2%;display:inline;}
+.row .col6_2{ width: 48%; float: left;margin-right:2%;display:inline;}
+.row .col7{ width: 56.31%; float: left;margin-right:2%;display:inline;}
+.row .col8{ width: 64.64%; float: left;margin-right:2%;display:inline;}
+.row .col9{ width: 72.97%; float: left;margin-right:2%;display:inline;}
+.row .col10{ width: 81.3%; float: left;margin-right:2%;display:inline;}
+.row .col11{ width: 89.63%; float: left;margin-right:2%;display:inline;}
+.row .col12{ width: 97%; float: left;margin-right:2%;display:inline;}
+
+.mincho{font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;letter-spacing:}
+.fs20{ font-size:20px;}
+.fs30{ font-size:30px;}
+
+
+.flex{
+    display:-webkit-box;
+    display:-moz-box;
+    display:-ms-box;
+    display:-webkit-flexbox;
+    display:-moz-flexbox;
+    display:-ms-flexbox;
+    display:-webkit-flex;
+    display:-moz-flex;
+    display:-ms-flex;
+    display:flex;
+    -webkit-box-lines:multiple;
+    -moz-box-lines:multiple;
+    -webkit-flex-wrap:wrap;
+    -moz-flex-wrap:wrap;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+}
+.fb_iframe_widget > span {
+  vertical-align: baseline !important;
+}
+/*--pc2------------------------------*/
+@media screen and (max-width: 1169px)
+{
+    #social_box{ display: block;}
+}
+
+
+/*--tb------------------------------*/
+@media screen and (max-width: 979px)
+{
+    /*common*/
+    .pc,.sp{ display:none;}.tb,.pc_tb,.tb_sp{display:block;}
+}
+/*--sp------------------------------*/
+@media screen and (max-width: 719px)
+{
+    /* common */
+    .pc,.tb,.pc_tb{ display:none !important;}.sp,.tb_sp{ display:block;}
+    #wrapper{ width:94%; margin:0 auto;}
+}
+/*--sp(iphone5)---------------------------*/
+@media screen and (max-width: 390px)
+{
+
+}
