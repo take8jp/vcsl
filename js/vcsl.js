@@ -168,7 +168,7 @@ $(function(){
 					insert_vcsl += '<p>' + csvList_vcsl[i][11] + '</p>';
 					};
 					 if(csvList_vcsl[i][12]=="ある"){
-						 insert_vcsl += '<div class="text-center"><a href="http://take8jp.starfree.jp/vosl/?search=' + csvList_vcsl[i][1] + '" target="_blank" class="btn text-bg-secondary mx-1 original_linkbtn">関連するオリジナル曲はこちら</a></div>';
+						 insert_vcsl += '<div class="text-center"><a href="https://take8jp.github.io/vosl/?search=' + csvList_vcsl[i][1] + '" target="_blank" class="btn text-bg-secondary mx-1 original_linkbtn">関連するオリジナル曲はこちら</a></div>';
 					 }else{};
 					insert_vcsl += '<div class="search_only">' + csvList_vcsl[i][1] + '' + csvList_vcsl[i][13] + '' + csvList_vcsl[i][14] + '</div>';
 					insert_vcsl += '</div>';
@@ -318,10 +318,10 @@ $(function(){
      		});
 				$(".share_btn").click(function(){
 					if(getParam('lang') == null){
-						var share_btn_link = "https://twitter.com/share?url=http://take8jp.starfree.jp/vcsl/&hashtags=vcslist";
+						var share_btn_link = "https://twitter.com/share?url=https://take8jp.github.io/vcsl/&hashtags=vcslist";
 						window.open(share_btn_link, "_blank");
 					} else{
-						var share_btn_link = "https://twitter.com/share?url=http://take8jp.starfree.jp/vcsl/?lang=" + getParam('lang') + "&hashtags=vcslist";
+						var share_btn_link = "https://twitter.com/share?url=https://take8jp.github.io/vcsl/?lang=" + getParam('lang') + "&hashtags=vcslist";
 						window.open(share_btn_link, "_blank");
 					}
 				});
