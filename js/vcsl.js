@@ -280,6 +280,7 @@ $(function(){
 								$(".clear_txt").text("clear");//クリア
 								$(".share_btn").text("Share on X");//Xでシェアする
 								$("#search").attr("placeholder","Enter search words");//検索ワードを入力
+								$(".left_link_txt").text("Click here for original music");//オリジナル曲はこちら
 								$('.genre_txt').each(function(){
 									var genre_txt = $(this).html();
 									$(this).html(
@@ -306,6 +307,7 @@ $(function(){
 								$(".clear_txt").text("클리어");//クリア
 								$(".share_btn").text("X로 공유");//Xでシェアする
 								$("#search").attr("placeholder","검색어 입력");//検索ワードを入力
+								$(".left_link_txt").text("오리지널 곡은 여기");//オリジナル曲はこちら
 								$('.genre_txt').each(function(){
 									var genre_txt = $(this).html();
 									$(this).html(
